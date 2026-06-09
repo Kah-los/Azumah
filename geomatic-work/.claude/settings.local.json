@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__magic__21st_magic_component_inspiration",
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Read(//Users/kah-los/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python3 scripts/search.py \"geomatics spatial engineering B2B premium dark blueprint\" --design-system -p \"Meridian Geomatics\" -f markdown)",
+      "Bash(python3 scripts/search.py \"B2B trust signals conversion enterprise\" --domain landing -n 8)",
+      "Bash(python3 scripts/search.py \"accessibility focus states keyboard contrast\" --domain ux -n 8)",
+      "Bash(python3 scripts/search.py \"spacing rhythm hierarchy mobile\" --domain ux -n 6)",
+      "Skill(impeccable)",
+      "Skill(impeccable:*)",
+      "Bash(node /Users/kah-los/.claude/skills/impeccable/scripts/context.mjs)",
+      "Bash(node /Users/kah-los/.claude/skills/impeccable/scripts/detect.mjs --json components/site app/page.tsx app/globals.css)",
+      "Bash(pkill -f \"next dev\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(python3 scripts/search.py \"B2B enterprise procurement RFP conversion lead form\" --domain landing -n 6)",
+      "Bash(python3 scripts/search.py \"form validation error success label\" --domain ux -n 8)",
+      "Bash(python3 scripts/search.py \"mobile CTA sticky touch target\" --domain ux -n 6)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(sips -s format jpeg -s formatOptions 80 -Z 600 \"/Users/kah-los/Library/Messages/Attachments/eb/11/0C7758CA-BDB9-411D-AF7A-9A505E487F3B/IMG_7708.heic\" --out \"/tmp/test_preview.jpg\")",
+      "Read(//tmp/**)",
+      "Read(//Users/kah-los/Library/Messages/Attachments/eb/11/0C7758CA-BDB9-411D-AF7A-9A505E487F3B/**)",
+      "Bash(cp \"/Users/kah-los/Library/Messages/Attachments/eb/11/0C7758CA-BDB9-411D-AF7A-9A505E487F3B/IMG_7708.heic\" /tmp/test.heic)",
+      "Bash(sips -s format jpeg -Z 600 /tmp/test.heic --out /tmp/test.jpg)",
+      "Bash(mv \"IMG_2189 2.jpeg\" \"IMG_2189.jpeg\")",
+      "Bash(rm -f .DS_Store)"
+    ]
+  }
+}
