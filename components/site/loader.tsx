@@ -17,7 +17,7 @@ export function Loader() {
   const [coord, setCoord] = useState(0);
 
   useEffect(() => {
-    const t = setTimeout(() => setDone(true), reduce ? 200 : 1900);
+    const t = setTimeout(() => setDone(true), reduce ? 200 : 900);
     return () => clearTimeout(t);
   }, [reduce]);
 
@@ -84,9 +84,9 @@ export function Loader() {
 
             <div className="flex flex-col items-center gap-3.5 mono text-[11px] uppercase tracking-[0.3em] text-[color:var(--color-ink-dim)]">
               <span className="text-[13px] tracking-[0.6em] text-[color:var(--color-ink)]">MAYPELS</span>
-              <div className="h-px w-[220px] overflow-hidden bg-white/10">
+              <div className="h-px w-[220px] overflow-hidden bg-white/8">
                 <motion.div
-                  className="h-full bg-[color:var(--color-accent)] shadow-[0_0_10px_var(--color-glow)]"
+                  className="h-full bg-[color:var(--color-accent)]"
                   initial={{ width: "0%" }}
                   animate={{ width: "100%" }}
                   transition={{ duration: reduce ? 0.2 : 1.6, ease: [0.16, 1, 0.3, 1] }}

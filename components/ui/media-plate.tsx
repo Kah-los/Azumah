@@ -29,11 +29,11 @@ export type MediaPlateProps = {
 
 const GRADES: Record<NonNullable<MediaPlateProps["grade"]>, string> = {
   quiet:
-    "after:bg-[linear-gradient(180deg,rgba(6,9,14,0.35),rgba(6,9,14,0.65)_60%,rgba(6,9,14,0.9))]",
+    "after:bg-[linear-gradient(180deg,rgba(28,35,51,0.05),rgba(28,35,51,0.30)_60%,rgba(28,35,51,0.58))]",
   default:
-    "after:bg-[linear-gradient(180deg,rgba(6,9,14,0.55),rgba(6,9,14,0.75)_55%,rgba(6,9,14,0.95))]",
+    "after:bg-[linear-gradient(180deg,rgba(28,35,51,0.18),rgba(28,35,51,0.45)_55%,rgba(28,35,51,0.76))]",
   strong:
-    "after:bg-[linear-gradient(180deg,rgba(6,9,14,0.7),rgba(6,9,14,0.85)_55%,rgba(6,9,14,0.97))]",
+    "after:bg-[linear-gradient(180deg,rgba(28,35,51,0.32),rgba(28,35,51,0.58)_55%,rgba(28,35,51,0.88))]",
 };
 
 export function MediaPlate({
@@ -61,21 +61,10 @@ export function MediaPlate({
         sizes={sizes}
         priority={priority}
         className={cn(
-          // brand grade in CSS: desaturate, lift contrast, push toward cool
-          "object-cover [filter:saturate(0.55)_contrast(1.08)_brightness(0.88)] transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
+          "object-cover [filter:saturate(0.92)_contrast(1.04)_brightness(0.96)] transition-transform duration-[1200ms] ease-[cubic-bezier(0.16,1,0.3,1)]",
           imageClassName
         )}
         style={{ objectPosition: image.focal ?? "center" }}
-      />
-
-      {/* Brand accent grade — a faint blue wash applied above the photo */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute inset-0 z-[5] mix-blend-color"
-        style={{
-          background:
-            "linear-gradient(135deg, rgba(106,169,216,0.18), rgba(46,82,120,0.10))",
-        }}
       />
 
       {corners && (

@@ -22,7 +22,7 @@ export function Nav() {
         initial={{ y: -80, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 2.0, duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
-        className="fixed inset-x-0 top-0 z-[100] flex items-center justify-between border-b border-[color:var(--color-line)] bg-gradient-to-b from-[rgba(6,9,14,0.78)] to-[rgba(6,9,14,0.2)] px-6 py-4 backdrop-blur-xl backdrop-saturate-150 md:px-12 md:py-5"
+        className="fixed inset-x-0 top-0 z-[100] flex items-center justify-between border-b border-[color:var(--color-line)] bg-gradient-to-b from-[rgba(28,35,51,0.88)] to-[rgba(28,35,51,0.15)] px-6 py-4 backdrop-blur-xl backdrop-saturate-150 md:px-12 md:py-5"
       >
         <Logo />
 
@@ -38,7 +38,7 @@ export function Nav() {
           <Magnetic>
             <a
               href="#contact"
-              className="rounded-full border border-[color:var(--color-line-strong)] glass px-4 py-2.5 text-[11px] uppercase tracking-[0.18em] transition-all duration-500 hover:border-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)] hover:text-[color:var(--color-bg)] hover:shadow-[0_0_30px_var(--color-glow)] md:px-5 md:py-3 md:text-[12px]"
+              className="rounded-full border border-[color:var(--color-line-strong)] glass px-4 py-2.5 text-[11px] uppercase tracking-[0.18em] transition-all duration-500 hover:border-[color:var(--color-accent)] hover:bg-[color:var(--color-accent)] hover:text-[#17202e] hover:shadow-[0_0_20px_var(--color-glow)] md:px-5 md:py-3 md:text-[12px]"
             >
               <span>Start a survey</span>
             </a>

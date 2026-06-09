@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { MaskReveal, Reveal } from "@/components/ui/reveal";
 import { MediaPlate } from "@/components/ui/media-plate";
-import { IMG } from "@/lib/images";
+import { LOCAL } from "@/lib/images";
 
 export function Hero() {
   return (
@@ -13,13 +13,12 @@ export function Hero() {
           all content. Quietly graded so the hero copy stays the focal point. */}
       <div className="absolute inset-0 -z-[2]">
         <MediaPlate
-          image={IMG.hero}
-          grade="strong"
+          image={LOCAL.crewGNSS}
+          grade="quiet"
           corners={false}
           priority
           sizes="100vw"
           className="absolute inset-0"
-          imageClassName="[filter:saturate(0.45)_contrast(1.05)_brightness(0.7)]"
         />
       </div>
 

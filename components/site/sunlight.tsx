@@ -28,7 +28,7 @@ export function Sunlight() {
     return () => window.removeEventListener("mousemove", move);
   }, [touch, reduce, mx, my]);
 
-  const bg = useMotionTemplate`radial-gradient(900px circle at ${sx}% ${sy}%, rgba(140,200,255,.07), transparent 55%)`;
+  const bg = useMotionTemplate`radial-gradient(900px circle at ${sx}% ${sy}%, rgba(201,169,110,.05), transparent 55%)`;
 
   if (reduce) return null;
 

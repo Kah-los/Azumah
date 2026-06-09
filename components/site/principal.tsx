@@ -48,8 +48,6 @@ export function Principal() {
                 corners
                 sizes="(min-width: 1024px) 38vw, 100vw"
                 className="absolute inset-0"
-                // Keep the field photo close to authentic — soften only slightly.
-                imageClassName="[filter:saturate(0.78)_contrast(1.04)_brightness(0.96)]"
               />
             </div>
             <figcaption className="mono mt-4 text-[11px] uppercase tracking-[0.2em] text-[color:var(--color-ink-dim)]">

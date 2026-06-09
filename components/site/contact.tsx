@@ -26,17 +26,16 @@ export function Contact() {
         <div className="relative overflow-hidden rounded-[24px] glass-strong p-10 md:p-20">
           {/* Real field photo from the practice's archive — graded strong so
               that copy remains the focal point and reads with > 4.5:1 contrast. */}
-          <div className="pointer-events-none absolute inset-0 -z-[1] opacity-90">
+          <div className="pointer-events-none absolute inset-0 -z-[1]">
             <MediaPlate
               image={LOCAL.totalStationHilltop}
-              grade="strong"
+              grade="default"
               corners={false}
               sizes="(min-width: 1024px) 70vw, 100vw"
               className="absolute inset-0"
-              imageClassName="[filter:saturate(0.5)_contrast(1.05)_brightness(0.55)]"
             />
           </div>
-          <div className="pointer-events-none absolute -left-[10%] -top-[50%] h-[200%] w-[60%] bg-[radial-gradient(circle,rgba(140,200,255,.18),transparent_60%)] blur-[60px]" />
+          <div className="pointer-events-none absolute -left-[10%] -top-[50%] h-[200%] w-[60%] bg-[radial-gradient(circle,rgba(201,169,110,.10),transparent_60%)] blur-[60px]" />
 
           <span aria-hidden className="mb-8 block h-px w-12 bg-[color:var(--color-accent)]" />
 
